@@ -1,5 +1,10 @@
 import React from 'react';
 import PersonIcon from '@mui/icons-material/Person';
+import SignpostIcon from '@mui/icons-material/Signpost';
+import Diversity1Icon from '@mui/icons-material/Diversity1';
+import Groups3Icon from '@mui/icons-material/Groups3';
+import ShareIcon from '@mui/icons-material/Share';
+
 const listItem = [
     {
         id: "myFeed",
@@ -9,22 +14,22 @@ const listItem = [
     {
         id: "myPost",
         title: "My Post",
-        icon: <PersonIcon />,
+        icon: <SignpostIcon />,
     },
     {
         id: "myTeamPost",
         title: "My Team Post",
-        icon: <PersonIcon />,
+        icon: <Diversity1Icon />,
     },
     {
         id: "myFollowingPost",
         title: "My Following Post",
-        icon: <PersonIcon />,
+        icon: <Groups3Icon />,
     },
     {
         id: "sharedPost",
         title: "Shared Post",
-        icon: <PersonIcon />,
+        icon: <ShareIcon />,
     }
 ]
 

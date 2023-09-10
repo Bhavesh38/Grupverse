@@ -5,7 +5,7 @@ import "../../../App.css"
 
 const HomeHeading = () => {
     return (
-        <div className='flex flex-col gap-6 max-h-screen overflow-y-auto z-[10] scrollbar-hidden w-1/3'>
+        <div className='flex flex-col gap-6 max-h-screen overflow-y-auto z-[10] scrollbar-hidden w-full md:w-1/4'>
             <HeadingListItem />
             <Trending />
         </div>

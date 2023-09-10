@@ -11,7 +11,7 @@ import NavbarSmallScreenView from './NavbarSmallScreenView';
 const Navbar = () => {
     const [activeMenu, setActiveMenu] = React.useState(false);
     return (
-        <nav className="fixed top-0 w-full border-b-[1px] border-gray-150 shadow-sm p-2 flex md:justify-between items-center z-[2000]">
+        <nav className="fixed top-0 w-full border-b-[1px] border-gray-150 bg-gray-50  shadow  p-1 pl-4  md:p-2 flex md:justify-between items-center z-[2000]">
             <NavLogo />
             <NavlistItems />
             <NavSearchbar />

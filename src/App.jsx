@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Navbar from './components/navbar/Navbar';
+import FeedFooter from './components/feedFooter/FeedFooter';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           </Route>
         </Routes>
       </div>
+      <FeedFooter />
     </BrowserRouter>
   )
 }
